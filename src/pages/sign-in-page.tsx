@@ -20,8 +20,8 @@ const SignInPage: FunctionComponent = () => {
   return (
     <div className="w-full relative bg-gray-100 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border leading-[normal] tracking-[normal] hover:[background:linear-gradient(#fff,_#fff),_#87550a]">
       <Header
-        notifications="/notifications@2x.png"
-        avatar="/avatar@2x.png"
+        notifications="/notifications1@2x.png"
+        avatar="/avatar1@2x.png"
         showLoginSection={false}
       />
       <main className="self-stretch flex flex-row items-start justify-center py-[203.5px] px-5 box-border bg-[url('/public/login-sections1@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[1] mt-[-0.1px] text-left text-7xl text-dark font-archivo mq750:gap-[28px] mq750:pb-[86px] mq750:box-border mq1100:pb-[132px] mq1100:box-border">
@@ -106,7 +106,7 @@ const SignInPage: FunctionComponent = () => {
             <div className="self-stretch h-0.5 relative box-border border-t-[1.6px] border-solid border-whitesmoke-200" />
             <SocialMediaLogin
               orSignUpWith="Or sign in with"
-              image="/image1@2x.png"
+              image="/image11@2x.png"
               image1="/image-16@2x.png"
               image2="/image-22@2x.png"
             />
